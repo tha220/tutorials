@@ -90,7 +90,7 @@ Start by creating the first action:
 
 1. Switch to **Functions** https://{DomainName}/openwhisk.
 2. On the left pane, click on **Actions** and then **Create**.
-3. **Create Action** with name `prepare-entry-for-save` and select **Node.js 6** as the Runtime.
+3. **Create Action** with name `prepare-entry-for-save` and select **Node.js 8** as the Runtime.
 4. Replace the existing code with the code snippet below:
    ```js
    /**
