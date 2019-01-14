@@ -198,6 +198,9 @@ Complete the sequence:
 ![](images/solution8/Cloud_Functions_API.png)
 
 1. Go to Actions https://{DomainName}/openwhisk/actions.
+
+![](images/solution8/web_action.png)
+
 2. Select the **read-guestbook-entries-sequence** sequence. Under **Endpoints**, check **Enable Web Action** and **Save**.
 3. Do the same for the **save-guestbook-entry-sequence** sequence.
 4. Go to APIs https://{DomainName}/openwhisk/apimanagement and **Create a {{site.data.keyword.openwhisk_short}} API**
